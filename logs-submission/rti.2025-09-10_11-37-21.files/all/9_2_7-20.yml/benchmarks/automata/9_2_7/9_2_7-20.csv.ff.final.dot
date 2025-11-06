@@ -1,0 +1,55 @@
+// produced with flexfringe // 
+digraph DFA {
+	0 [label="root" shape=box];
+		I -> 0;
+	0 [ label="0 #20 fin: 
+ path: 0:20 , 
+20 0attr(0):[8,7,5,0,]
+" , style=filled, fillcolor="tomato", width=1.39736, height=1.39736, penwidth=3.04452];
+		0 -> 1 [label="0 20 " , penwidth=3.04452 ];
+	1 [ label="1 #20 fin: 
+ path: 0:20 , 
+20 0attr(0):[3,6,8,3,]
+" , style=filled, fillcolor="tomato", width=1.39736, height=1.39736, penwidth=3.04452];
+		1 -> 7 [label="0 17 " , penwidth=3.04452 ];
+		1 -> 2 [label="1 3 " , penwidth=3.04452 ];
+	7 [ label="7 #17 fin: 0:4 , 
+ path: 0:13 , 
+13 4attr(0):[6,3,1,7,]
+" , style=filled, fillcolor="tomato", width=1.3585, height=1.3585, penwidth=2.89037];
+		7 -> 8 [label="0 11 " , penwidth=2.89037 ];
+		7 -> 4 [label="1 2 " , penwidth=2.89037 ];
+	2 [ label="2 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[0,1,1,1,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		2 -> 3 [label="0 3 " , penwidth=1.38629 ];
+	8 [ label="8 #11 fin: 0:3 , 
+ path: 0:8 , 
+8 3attr(0):[4,2,3,2,]
+" , style=filled, fillcolor="tomato", width=1.24844, height=1.24844, penwidth=2.48491];
+		8 -> 9 [label="0 7 " , penwidth=2.48491 ];
+		8 -> 4 [label="1 1 " , penwidth=2.48491 ];
+	3 [ label="3 #6 fin: 0:2 , 
+ path: 0:4 , 
+4 2attr(0):[3,0,0,3,]
+" , style=filled, fillcolor="tomato", width=1.08042, height=1.08042, penwidth=1.94591];
+		3 -> 4 [label="0 2 " , penwidth=1.94591 ];
+		3 -> 4 [label="1 2 " , penwidth=1.94591 ];
+	9 [ label="9 #7 fin: 0:3 , 
+ path: 0:4 , 
+4 3attr(0):[4,2,1,0,]
+" , style=filled, fillcolor="tomato", width=1.12475, height=1.12475, penwidth=2.07944];
+		9 -> 3 [label="0 3 " , penwidth=2.07944 ];
+		9 -> 4 [label="1 1 " , penwidth=2.07944 ];
+	4 [ label="4 #9 fin: 0:8 , 
+ path: 0:1 , 
+1 8attr(0):[9,0,0,0,]
+" , style=filled, fillcolor="tomato", width=1.19471, height=1.19471, penwidth=2.30259];
+		4 -> 5 [label="0 1 " , penwidth=2.30259 ];
+	5 [ label="5 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,0,0,1,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		5 -> 4 [label="0 1 " , penwidth=0.693147 ];
+}

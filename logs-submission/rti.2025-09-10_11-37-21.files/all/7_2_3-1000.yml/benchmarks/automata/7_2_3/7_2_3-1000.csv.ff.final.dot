@@ -1,0 +1,653 @@
+// produced with flexfringe // 
+digraph DFA {
+	0 [label="root" shape=box];
+		I -> 0;
+	0 [ label="0 #1000 fin: 
+ path: 0:1000 , 
+1000 0attr(0):[192,377,124,307,]
+" , style=filled, fillcolor="tomato", width=2.06797, height=2.06797, penwidth=6.90875];
+		0 -> 1 [label="1 514 " , penwidth=6.90875 ];
+		0 -> 6 [label="0 486 " , penwidth=6.90875 ];
+	1 [ label="1 #514 fin: 0:55 , 
+ path: 0:459 , 
+459 55attr(0):[79,16,128,291,]
+" , style=filled, fillcolor="tomato", width=1.9802, height=1.9802, penwidth=6.24417];
+		1 -> 11 [label="1 241 " , penwidth=6.24417 ];
+		1 -> 2 [label="0 218 " , penwidth=6.24417 ];
+	6 [ label="6 #486 fin: 0:59 , 
+ path: 0:427 , 
+427 59attr(0):[125,78,283,0,]
+" , style=filled, fillcolor="tomato", width=1.97245, height=1.97245, penwidth=6.18826];
+		6 -> 7 [label="1 234 " , penwidth=6.18826 ];
+		6 -> 19 [label="0 193 " , penwidth=6.18826 ];
+	11 [ label="11 #241 fin: 0:60 , 
+ path: 0:181 , 
+181 60attr(0):[65,43,72,61,]
+" , style=filled, fillcolor="tomato", width=1.8701, height=1.8701, penwidth=5.48894];
+		11 -> 12 [label="1 74 " , penwidth=5.48894 ];
+		11 -> 25 [label="0 107 " , penwidth=5.48894 ];
+	2 [ label="2 #218 fin: 0:23 , 
+ path: 0:195 , 
+195 23attr(0):[62,43,113,0,]
+" , style=filled, fillcolor="tomato", width=1.85459, height=1.85459, penwidth=5.38907];
+		2 -> 3 [label="1 103 " , penwidth=5.38907 ];
+		2 -> 30 [label="0 92 " , penwidth=5.38907 ];
+	7 [ label="7 #234 fin: 0:61 , 
+ path: 0:173 , 
+173 61attr(0):[116,32,27,59,]
+" , style=filled, fillcolor="tomato", width=1.86557, height=1.86557, penwidth=5.45959];
+		7 -> 16 [label="1 86 " , penwidth=5.45959 ];
+		7 -> 8 [label="0 87 " , penwidth=5.45959 ];
+	19 [ label="19 #193 fin: 0:24 , 
+ path: 0:169 , 
+169 24attr(0):[140,42,11,0,]
+" , style=filled, fillcolor="tomato", width=1.83543, height=1.83543, penwidth=5.26786];
+		19 -> 20 [label="1 85 " , penwidth=5.26786 ];
+		19 -> 62 [label="0 84 " , penwidth=5.26786 ];
+	12 [ label="12 #74 fin: 0:18 , 
+ path: 0:56 , 
+56 18attr(0):[18,17,21,18,]
+" , style=filled, fillcolor="tomato", width=1.671, height=1.671, penwidth=4.31749];
+		12 -> 13 [label="1 28 " , penwidth=4.31749 ];
+		12 -> 61 [label="0 28 " , penwidth=4.31749 ];
+	25 [ label="25 #107 fin: 0:26 , 
+ path: 0:81 , 
+81 26attr(0):[40,28,10,29,]
+" , style=filled, fillcolor="tomato", width=1.73733, height=1.73733, penwidth=4.68213];
+		25 -> 52 [label="1 40 " , penwidth=4.68213 ];
+		25 -> 26 [label="0 41 " , penwidth=4.68213 ];
+	3 [ label="3 #103 fin: 0:50 , 
+ path: 0:53 , 
+53 50attr(0):[70,12,7,14,]
+" , style=filled, fillcolor="tomato", width=1.73066, height=1.73066, penwidth=4.64439];
+		3 -> 102 [label="1 21 " , penwidth=4.64439 ];
+		3 -> 4 [label="0 32 " , penwidth=4.64439 ];
+	30 [ label="30 #92 fin: 0:16 , 
+ path: 0:76 , 
+76 16attr(0):[62,25,5,0,]
+" , style=filled, fillcolor="tomato", width=1.71066, height=1.71066, penwidth=4.5326];
+		30 -> 31 [label="1 43 " , penwidth=4.5326 ];
+		30 -> 42 [label="0 33 " , penwidth=4.5326 ];
+	16 [ label="16 #86 fin: 0:35 , 
+ path: 0:51 , 
+51 35attr(0):[35,0,12,39,]
+" , style=filled, fillcolor="tomato", width=1.69853, height=1.69853, penwidth=4.46591];
+		16 -> 17 [label="1 51 " , penwidth=4.46591 ];
+	8 [ label="8 #87 fin: 0:15 , 
+ path: 0:72 , 
+72 15attr(0):[16,20,29,22,]
+" , style=filled, fillcolor="tomato", width=1.70062, height=1.70062, penwidth=4.47734];
+		8 -> 9 [label="1 36 " , penwidth=4.47734 ];
+		8 -> 73 [label="0 36 " , penwidth=4.47734 ];
+	20 [ label="20 #85 fin: 0:11 , 
+ path: 0:74 , 
+74 11attr(0):[23,12,50,0,]
+" , style=filled, fillcolor="tomato", width=1.69641, height=1.69641, penwidth=4.45435];
+		20 -> 21 [label="1 43 " , penwidth=4.45435 ];
+		20 -> 46 [label="0 31 " , penwidth=4.45435 ];
+	62 [ label="62 #84 fin: 0:13 , 
+ path: 0:71 , 
+71 13attr(0):[29,19,36,0,]
+" , style=filled, fillcolor="tomato", width=1.69427, height=1.69427, penwidth=4.44265];
+		62 -> 77 [label="1 31 " , penwidth=4.44265 ];
+		62 -> 63 [label="0 40 " , penwidth=4.44265 ];
+	13 [ label="13 #28 fin: 0:10 , 
+ path: 0:18 , 
+18 10attr(0):[11,3,9,5,]
+" , style=filled, fillcolor="tomato", width=1.47414, height=1.47414, penwidth=3.3673];
+		13 -> 15 [label="1 9 " , penwidth=3.3673 ];
+		13 -> 5 [label="0 9 " , penwidth=3.3673 ];
+	61 [ label="61 #28 fin: 0:5 , 
+ path: 0:23 , 
+23 5attr(0):[11,7,3,7,]
+" , style=filled, fillcolor="tomato", width=1.47414, height=1.47414, penwidth=3.3673];
+		61 -> 120 [label="1 13 " , penwidth=3.3673 ];
+		61 -> 58 [label="0 10 " , penwidth=3.3673 ];
+	52 [ label="52 #40 fin: 0:23 , 
+ path: 0:17 , 
+17 23attr(0):[26,1,3,10,]
+" , style=filled, fillcolor="tomato", width=1.55045, height=1.55045, penwidth=3.71357];
+		52 -> 53 [label="1 9 " , penwidth=3.71357 ];
+		52 -> 87 [label="0 8 " , penwidth=3.71357 ];
+	26 [ label="26 #41 fin: 0:25 , 
+ path: 0:16 , 
+16 25attr(0):[27,6,8,0,]
+" , style=filled, fillcolor="tomato", width=1.55555, height=1.55555, penwidth=3.73767];
+		26 -> 72 [label="1 4 " , penwidth=3.73767 ];
+		26 -> 27 [label="0 12 " , penwidth=3.73767 ];
+	102 [ label="102 #21 fin: 0:10 , 
+ path: 0:11 , 
+11 10attr(0):[10,0,5,6,]
+" , style=filled, fillcolor="tomato", width=1.4088, height=1.4088, penwidth=3.09104];
+		102 -> 103 [label="1 11 " , penwidth=3.09104 ];
+	4 [ label="4 #32 fin: 0:10 , 
+ path: 0:22 , 
+22 10attr(0):[10,4,8,10,]
+" , style=filled, fillcolor="tomato", width=1.5033, height=1.5033, penwidth=3.49651];
+		4 -> 60 [label="1 7 " , penwidth=3.49651 ];
+		4 -> 5 [label="0 15 " , penwidth=3.49651 ];
+	31 [ label="31 #43 fin: 0:11 , 
+ path: 0:32 , 
+32 11attr(0):[15,8,20,0,]
+" , style=filled, fillcolor="tomato", width=1.56532, height=1.56532, penwidth=3.78419];
+		31 -> 57 [label="1 17 " , penwidth=3.78419 ];
+		31 -> 32 [label="0 15 " , penwidth=3.78419 ];
+	42 [ label="42 #33 fin: 0:12 , 
+ path: 0:21 , 
+21 12attr(0):[15,6,12,0,]
+" , style=filled, fillcolor="tomato", width=1.50992, height=1.50992, penwidth=3.52636];
+		42 -> 58 [label="1 9 " , penwidth=3.52636 ];
+		42 -> 43 [label="0 12 " , penwidth=3.52636 ];
+	17 [ label="17 #51 fin: 0:5 , 
+ path: 0:46 , 
+46 5attr(0):[9,6,36,0,]
+" , style=filled, fillcolor="tomato", width=1.59964, height=1.59964, penwidth=3.95124];
+		17 -> 18 [label="1 32 " , penwidth=3.95124 ];
+		17 -> 54 [label="0 14 " , penwidth=3.95124 ];
+	9 [ label="9 #36 fin: 0:8 , 
+ path: 0:28 , 
+28 8attr(0):[9,5,12,10,]
+" , style=filled, fillcolor="tomato", width=1.52843, height=1.52843, penwidth=3.61092];
+		9 -> 10 [label="1 12 " , penwidth=3.61092 ];
+		9 -> 86 [label="0 16 " , penwidth=3.61092 ];
+	73 [ label="73 #36 fin: 0:7 , 
+ path: 0:29 , 
+29 7attr(0):[13,7,4,12,]
+" , style=filled, fillcolor="tomato", width=1.52843, height=1.52843, penwidth=3.61092];
+		73 -> 111 [label="1 12 " , penwidth=3.61092 ];
+		73 -> 98 [label="0 17 " , penwidth=3.61092 ];
+	21 [ label="21 #43 fin: 0:29 , 
+ path: 0:14 , 
+14 29attr(0):[33,3,1,6,]
+" , style=filled, fillcolor="tomato", width=1.56532, height=1.56532, penwidth=3.78419];
+		21 -> 22 [label="1 7 " , penwidth=3.78419 ];
+		21 -> 113 [label="0 7 " , penwidth=3.78419 ];
+	46 [ label="46 #31 fin: 0:8 , 
+ path: 0:23 , 
+23 8attr(0):[19,7,5,0,]
+" , style=filled, fillcolor="tomato", width=1.49643, height=1.49643, penwidth=3.46574];
+		46 -> 87 [label="1 9 " , penwidth=3.46574 ];
+		46 -> 47 [label="0 14 " , penwidth=3.46574 ];
+	77 [ label="77 #31 fin: 0:16 , 
+ path: 0:15 , 
+15 16attr(0):[20,5,3,3,]
+" , style=filled, fillcolor="tomato", width=1.49643, height=1.49643, penwidth=3.46574];
+		77 -> 163 [label="1 6 " , penwidth=3.46574 ];
+		77 -> 146 [label="0 9 " , penwidth=3.46574 ];
+	63 [ label="63 #40 fin: 0:6 , 
+ path: 0:34 , 
+34 6attr(0):[32,6,2,0,]
+" , style=filled, fillcolor="tomato", width=1.55045, height=1.55045, penwidth=3.71357];
+		63 -> 80 [label="1 20 " , penwidth=3.71357 ];
+		63 -> 64 [label="0 14 " , penwidth=3.71357 ];
+	15 [ label="15 #9 fin: 0:3 , 
+ path: 0:6 , 
+6 3attr(0):[3,2,1,3,]
+" , style=filled, fillcolor="tomato", width=1.19471, height=1.19471, penwidth=2.30259];
+		15 -> 207 [label="1 2 " , penwidth=2.30259 ];
+		15 -> 194 [label="0 4 " , penwidth=2.30259 ];
+	120 [ label="120 #13 fin: 0:11 , 
+ path: 0:2 , 
+2 11attr(0):[11,0,1,1,]
+" , style=filled, fillcolor="tomato", width=1.29172, height=1.29172, penwidth=2.63906];
+		120 -> 58 [label="1 2 " , penwidth=2.63906 ];
+	53 [ label="53 #9 fin: 0:7 , 
+ path: 0:2 , 
+2 7attr(0):[7,0,1,1,]
+" , style=filled, fillcolor="tomato", width=1.19471, height=1.19471, penwidth=2.30259];
+		53 -> 247 [label="1 1 " , penwidth=2.30259 ];
+		53 -> 180 [label="0 1 " , penwidth=2.30259 ];
+	72 [ label="72 #4 fin: 0:3 , 
+ path: 0:1 , 
+1 3attr(0):[3,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		72 -> 179 [label="0 1 " , penwidth=1.60944 ];
+	27 [ label="27 #12 fin: 0:3 , 
+ path: 0:9 , 
+9 3attr(0):[9,2,1,0,]
+" , style=filled, fillcolor="tomato", width=1.27115, height=1.27115, penwidth=2.56495];
+		27 -> 28 [label="0 9 " , penwidth=2.56495 ];
+	103 [ label="103 #11 fin: 0:4 , 
+ path: 0:7 , 
+7 4attr(0):[5,0,6,0,]
+" , style=filled, fillcolor="tomato", width=1.24844, height=1.24844, penwidth=2.48491];
+		103 -> 58 [label="1 5 " , penwidth=2.48491 ];
+		103 -> 104 [label="0 2 " , penwidth=2.48491 ];
+	60 [ label="60 #7 fin: 0:3 , 
+ path: 0:4 , 
+4 3attr(0):[3,2,1,1,]
+" , style=filled, fillcolor="tomato", width=1.12475, height=1.12475, penwidth=2.07944];
+		60 -> 224 [label="1 1 " , penwidth=2.07944 ];
+		60 -> 203 [label="0 3 " , penwidth=2.07944 ];
+	5 [ label="5 #24 fin: 0:8 , 
+ path: 0:16 , 
+16 8attr(0):[12,8,0,4,]
+" , style=filled, fillcolor="tomato", width=1.43957, height=1.43957, penwidth=3.21888];
+		5 -> 58 [label="1 12 " , penwidth=3.21888 ];
+		5 -> 58 [label="0 4 " , penwidth=3.21888 ];
+	57 [ label="57 #17 fin: 0:15 , 
+ path: 0:2 , 
+2 15attr(0):[15,0,0,2,]
+" , style=filled, fillcolor="tomato", width=1.3585, height=1.3585, penwidth=2.89037];
+		57 -> 58 [label="1 2 " , penwidth=2.89037 ];
+	32 [ label="32 #15 fin: 0:5 , 
+ path: 0:10 , 
+10 5attr(0):[12,2,1,0,]
+" , style=filled, fillcolor="tomato", width=1.32776, height=1.32776, penwidth=2.77259];
+		32 -> 33 [label="1 6 " , penwidth=2.77259 ];
+		32 -> 114 [label="0 4 " , penwidth=2.77259 ];
+	43 [ label="43 #12 fin: 0:4 , 
+ path: 0:8 , 
+8 4attr(0):[7,5,0,0,]
+" , style=filled, fillcolor="tomato", width=1.27115, height=1.27115, penwidth=2.56495];
+		43 -> 82 [label="1 4 " , penwidth=2.56495 ];
+		43 -> 89 [label="0 4 " , penwidth=2.56495 ];
+	18 [ label="18 #32 fin: 0:25 , 
+ path: 0:7 , 
+7 25attr(0):[26,4,2,0,]
+" , style=filled, fillcolor="tomato", width=1.5033, height=1.5033, penwidth=3.49651];
+		18 -> 58 [label="1 2 " , penwidth=3.49651 ];
+		18 -> 188 [label="0 5 " , penwidth=3.49651 ];
+	54 [ label="54 #14 fin: 0:8 , 
+ path: 0:6 , 
+6 8attr(0):[12,1,1,0,]
+" , style=filled, fillcolor="tomato", width=1.31051, height=1.31051, penwidth=2.70805];
+		54 -> 89 [label="1 2 " , penwidth=2.70805 ];
+		54 -> 55 [label="0 4 " , penwidth=2.70805 ];
+	10 [ label="10 #12 fin: 0:3 , 
+ path: 0:9 , 
+9 3attr(0):[3,2,1,6,]
+" , style=filled, fillcolor="tomato", width=1.27115, height=1.27115, penwidth=2.56495];
+		10 -> 196 [label="1 2 " , penwidth=2.56495 ];
+		10 -> 183 [label="0 7 " , penwidth=2.56495 ];
+	86 [ label="86 #16 fin: 0:2 , 
+ path: 0:14 , 
+14 2attr(0):[3,7,2,4,]
+" , style=filled, fillcolor="tomato", width=1.3437, height=1.3437, penwidth=2.83321];
+		86 -> 58 [label="1 8 " , penwidth=2.83321 ];
+		86 -> 58 [label="0 6 " , penwidth=2.83321 ];
+	111 [ label="111 #12 fin: 0:9 , 
+ path: 0:3 , 
+3 9attr(0):[9,0,0,3,]
+" , style=filled, fillcolor="tomato", width=1.27115, height=1.27115, penwidth=2.56495];
+		111 -> 58 [label="1 3 " , penwidth=2.56495 ];
+	98 [ label="98 #17 fin: 0:13 , 
+ path: 0:4 , 
+4 13attr(0):[14,1,2,0,]
+" , style=filled, fillcolor="tomato", width=1.3585, height=1.3585, penwidth=2.89037];
+		98 -> 58 [label="1 2 " , penwidth=2.89037 ];
+		98 -> 123 [label="0 2 " , penwidth=2.89037 ];
+	22 [ label="22 #7 fin: 0:3 , 
+ path: 0:4 , 
+4 3attr(0):[3,0,0,4,]
+" , style=filled, fillcolor="tomato", width=1.12475, height=1.12475, penwidth=2.07944];
+		22 -> 23 [label="1 4 " , penwidth=2.07944 ];
+	113 [ label="113 #7 fin: 0:3 , 
+ path: 0:4 , 
+4 3attr(0):[3,1,3,0,]
+" , style=filled, fillcolor="tomato", width=1.12475, height=1.12475, penwidth=2.07944];
+		113 -> 228 [label="1 3 " , penwidth=2.07944 ];
+		113 -> 104 [label="0 1 " , penwidth=2.07944 ];
+	87 [ label="87 #17 fin: 0:8 , 
+ path: 0:9 , 
+9 8attr(0):[11,2,4,0,]
+" , style=filled, fillcolor="tomato", width=1.3585, height=1.3585, penwidth=2.89037];
+		87 -> 58 [label="1 4 " , penwidth=2.89037 ];
+		87 -> 88 [label="0 5 " , penwidth=2.89037 ];
+	47 [ label="47 #14 fin: 0:1 , 
+ path: 0:13 , 
+13 1attr(0):[3,0,11,0,]
+" , style=filled, fillcolor="tomato", width=1.31051, height=1.31051, penwidth=2.70805];
+		47 -> 58 [label="1 10 " , penwidth=2.70805 ];
+		47 -> 48 [label="0 3 " , penwidth=2.70805 ];
+	163 [ label="163 #6 fin: 0:4 , 
+ path: 0:2 , 
+2 4attr(0):[4,0,1,1,]
+" , style=filled, fillcolor="tomato", width=1.08042, height=1.08042, penwidth=1.94591];
+		163 -> 89 [label="1 2 " , penwidth=1.94591 ];
+	146 [ label="146 #9 fin: 0:2 , 
+ path: 0:7 , 
+7 2attr(0):[2,0,3,4,]
+" , style=filled, fillcolor="tomato", width=1.19471, height=1.19471, penwidth=2.30259];
+		146 -> 185 [label="1 3 " , penwidth=2.30259 ];
+		146 -> 194 [label="0 4 " , penwidth=2.30259 ];
+	80 [ label="80 #20 fin: 0:5 , 
+ path: 0:15 , 
+15 5attr(0):[6,3,11,0,]
+" , style=filled, fillcolor="tomato", width=1.39736, height=1.39736, penwidth=3.04452];
+		80 -> 58 [label="1 9 " , penwidth=3.04452 ];
+		80 -> 91 [label="0 6 " , penwidth=3.04452 ];
+	64 [ label="64 #18 fin: 0:4 , 
+ path: 0:14 , 
+14 4attr(0):[6,1,11,0,]
+" , style=filled, fillcolor="tomato", width=1.37231, height=1.37231, penwidth=2.94444];
+		64 -> 58 [label="1 9 " , penwidth=2.94444 ];
+		64 -> 58 [label="0 5 " , penwidth=2.94444 ];
+	207 [ label="207 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,1,1,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		207 -> 208 [label="1 2 " , penwidth=1.09861 ];
+	194 [ label="194 #8 fin: 
+ path: 0:8 , 
+8 0attr(0):[0,3,0,5,]
+" , style=filled, fillcolor="tomato", width=1.16228, height=1.16228, penwidth=2.19722];
+		194 -> 58 [label="1 2 " , penwidth=2.19722 ];
+		194 -> 58 [label="0 6 " , penwidth=2.19722 ];
+	247 [ label="247 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,0,1,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		247 -> 220 [label="1 1 " , penwidth=0.693147 ];
+	179 [ label="179 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,2,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		179 -> 180 [label="1 2 " , penwidth=1.09861 ];
+	28 [ label="28 #9 fin: 
+ path: 0:9 , 
+9 0attr(0):[1,1,7,0,]
+" , style=filled, fillcolor="tomato", width=1.19471, height=1.19471, penwidth=2.30259];
+		28 -> 58 [label="1 5 " , penwidth=2.30259 ];
+		28 -> 74 [label="0 4 " , penwidth=2.30259 ];
+	104 [ label="104 #6 fin: 
+ path: 0:6 , 
+6 0attr(0):[0,6,0,0,]
+" , style=filled, fillcolor="tomato", width=1.08042, height=1.08042, penwidth=1.94591];
+		104 -> 105 [label="1 6 " , penwidth=1.94591 ];
+	224 [ label="224 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,0,1,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		224 -> 225 [label="1 1 " , penwidth=0.693147 ];
+	203 [ label="203 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[1,2,0,0,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		203 -> 58 [label="1 2 " , penwidth=1.38629 ];
+		203 -> 58 [label="0 1 " , penwidth=1.38629 ];
+	33 [ label="33 #6 fin: 
+ path: 0:6 , 
+6 0attr(0):[0,2,4,0,]
+" , style=filled, fillcolor="tomato", width=1.08042, height=1.08042, penwidth=1.94591];
+		33 -> 58 [label="1 3 " , penwidth=1.94591 ];
+		33 -> 34 [label="0 3 " , penwidth=1.94591 ];
+	114 [ label="114 #4 fin: 
+ path: 0:4 , 
+4 0attr(0):[1,0,3,0,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		114 -> 58 [label="1 2 " , penwidth=1.60944 ];
+		114 -> 115 [label="0 2 " , penwidth=1.60944 ];
+	82 [ label="82 #4 fin: 
+ path: 0:4 , 
+4 0attr(0):[1,1,2,0,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		82 -> 58 [label="1 1 " , penwidth=1.60944 ];
+		82 -> 83 [label="0 3 " , penwidth=1.60944 ];
+	188 [ label="188 #5 fin: 
+ path: 0:5 , 
+5 0attr(0):[0,1,3,1,]
+" , style=filled, fillcolor="tomato", width=1.02667, height=1.02667, penwidth=1.79176];
+		188 -> 189 [label="1 3 " , penwidth=1.79176 ];
+		188 -> 218 [label="0 2 " , penwidth=1.79176 ];
+	55 [ label="55 #4 fin: 
+ path: 0:4 , 
+4 0attr(0):[0,0,4,0,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		55 -> 58 [label="1 3 " , penwidth=1.60944 ];
+		55 -> 130 [label="0 1 " , penwidth=1.60944 ];
+	196 [ label="196 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,1,0,1,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		196 -> 212 [label="1 1 " , penwidth=1.09861 ];
+		196 -> 104 [label="0 1 " , penwidth=1.09861 ];
+	183 [ label="183 #7 fin: 
+ path: 0:7 , 
+7 0attr(0):[1,3,3,0,]
+" , style=filled, fillcolor="tomato", width=1.12475, height=1.12475, penwidth=2.07944];
+		183 -> 58 [label="1 4 " , penwidth=2.07944 ];
+		183 -> 58 [label="0 3 " , penwidth=2.07944 ];
+	123 [ label="123 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[1,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		123 -> 124 [label="1 2 " , penwidth=1.09861 ];
+	23 [ label="23 #6 fin: 
+ path: 0:6 , 
+6 0attr(0):[1,2,3,0,]
+" , style=filled, fillcolor="tomato", width=1.08042, height=1.08042, penwidth=1.94591];
+		23 -> 58 [label="1 3 " , penwidth=1.94591 ];
+		23 -> 37 [label="0 3 " , penwidth=1.94591 ];
+	228 [ label="228 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[0,2,0,1,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		228 -> 231 [label="1 2 " , penwidth=1.38629 ];
+		228 -> 180 [label="0 1 " , penwidth=1.38629 ];
+	88 [ label="88 #5 fin: 
+ path: 0:5 , 
+5 0attr(0):[2,2,1,0,]
+" , style=filled, fillcolor="tomato", width=1.02667, height=1.02667, penwidth=1.79176];
+		88 -> 89 [label="0 5 " , penwidth=1.79176 ];
+	58 [ label="58 #186 fin: 0:181 , 
+ path: 0:5 , 
+5 181attr(0):[186,0,0,0,]
+" , style=filled, fillcolor="tomato", width=1.82955, height=1.82955, penwidth=5.23111];
+		58 -> 23 [label="1 2 " , penwidth=5.23111 ];
+		58 -> 89 [label="0 3 " , penwidth=5.23111 ];
+	48 [ label="48 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[2,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		48 -> 49 [label="1 2 " , penwidth=1.38629 ];
+		48 -> 89 [label="0 1 " , penwidth=1.38629 ];
+	185 [ label="185 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[0,0,2,1,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		185 -> 235 [label="1 2 " , penwidth=1.38629 ];
+		185 -> 104 [label="0 1 " , penwidth=1.38629 ];
+	91 [ label="91 #6 fin: 
+ path: 0:6 , 
+6 0attr(0):[3,3,0,0,]
+" , style=filled, fillcolor="tomato", width=1.08042, height=1.08042, penwidth=1.94591];
+		91 -> 89 [label="1 3 " , penwidth=1.94591 ];
+		91 -> 137 [label="0 3 " , penwidth=1.94591 ];
+	208 [ label="208 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,0,1,1,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		208 -> 220 [label="1 1 " , penwidth=1.09861 ];
+		208 -> 180 [label="0 1 " , penwidth=1.09861 ];
+	180 [ label="180 #10 fin: 
+ path: 0:10 , 
+10 0attr(0):[0,0,0,10,]
+" , style=filled, fillcolor="tomato", width=1.22316, height=1.22316, penwidth=2.3979];
+		180 -> 181 [label="0 10 " , penwidth=2.3979 ];
+	74 [ label="74 #4 fin: 
+ path: 0:4 , 
+4 0attr(0):[1,3,0,0,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		74 -> 89 [label="1 1 " , penwidth=1.60944 ];
+		74 -> 89 [label="0 3 " , penwidth=1.60944 ];
+	105 [ label="105 #6 fin: 0:4 , 
+ path: 0:2 , 
+2 4attr(0):[6,0,0,0,]
+" , style=filled, fillcolor="tomato", width=1.08042, height=1.08042, penwidth=1.94591];
+		105 -> 106 [label="0 2 " , penwidth=1.94591 ];
+	225 [ label="225 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,0,0,1,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		225 -> 104 [label="0 1 " , penwidth=0.693147 ];
+	34 [ label="34 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[2,0,1,0,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		34 -> 89 [label="1 1 " , penwidth=1.38629 ];
+		34 -> 49 [label="0 2 " , penwidth=1.38629 ];
+	115 [ label="115 #4 fin: 
+ path: 0:4 , 
+4 0attr(0):[2,2,0,0,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		115 -> 64 [label="0 4 " , penwidth=1.60944 ];
+	83 [ label="83 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[1,1,1,0,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		83 -> 84 [label="1 2 " , penwidth=1.38629 ];
+		83 -> 89 [label="0 1 " , penwidth=1.38629 ];
+	189 [ label="189 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[0,1,1,1,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		189 -> 179 [label="1 1 " , penwidth=1.38629 ];
+		189 -> 190 [label="0 2 " , penwidth=1.38629 ];
+	218 [ label="218 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,0,0,2,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		218 -> 58 [label="0 2 " , penwidth=1.09861 ];
+	130 [ label="130 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		130 -> 131 [label="1 1 " , penwidth=0.693147 ];
+	212 [ label="212 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,0,1,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		212 -> 213 [label="1 1 " , penwidth=0.693147 ];
+	124 [ label="124 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[2,0,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		124 -> 125 [label="0 2 " , penwidth=1.09861 ];
+	37 [ label="37 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[2,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		37 -> 38 [label="1 3 " , penwidth=1.38629 ];
+	231 [ label="231 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,2,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		231 -> 232 [label="1 1 " , penwidth=1.09861 ];
+		231 -> 180 [label="0 1 " , penwidth=1.09861 ];
+	89 [ label="89 #37 fin: 
+ path: 0:37 , 
+37 0attr(0):[0,0,37,0,]
+" , style=filled, fillcolor="tomato", width=1.53419, height=1.53419, penwidth=3.63759];
+		89 -> 58 [label="1 37 " , penwidth=3.63759 ];
+	49 [ label="49 #4 fin: 
+ path: 0:4 , 
+4 0attr(0):[1,0,3,0,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		49 -> 58 [label="1 2 " , penwidth=1.60944 ];
+		49 -> 106 [label="0 2 " , penwidth=1.60944 ];
+	235 [ label="235 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,0,0,2,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		235 -> 236 [label="0 2 " , penwidth=1.09861 ];
+	137 [ label="137 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[0,2,1,0,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		137 -> 58 [label="1 1 " , penwidth=1.38629 ];
+		137 -> 115 [label="0 2 " , penwidth=1.38629 ];
+	220 [ label="220 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,2,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		220 -> 215 [label="1 2 " , penwidth=1.09861 ];
+	181 [ label="181 #10 fin: 0:8 , 
+ path: 0:2 , 
+2 8attr(0):[10,0,0,0,]
+" , style=filled, fillcolor="tomato", width=1.22316, height=1.22316, penwidth=2.3979];
+		181 -> 58 [label="1 2 " , penwidth=2.3979 ];
+	106 [ label="106 #4 fin: 
+ path: 0:4 , 
+4 0attr(0):[4,0,0,0,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		106 -> 89 [label="1 4 " , penwidth=1.60944 ];
+	84 [ label="84 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,1,1,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		84 -> 58 [label="1 1 " , penwidth=1.09861 ];
+		84 -> 158 [label="0 1 " , penwidth=1.09861 ];
+	190 [ label="190 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,2,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		190 -> 58 [label="1 1 " , penwidth=1.09861 ];
+		190 -> 58 [label="0 1 " , penwidth=1.09861 ];
+	131 [ label="131 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[1,0,0,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		131 -> 132 [label="0 1 " , penwidth=0.693147 ];
+	213 [ label="213 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		213 -> 214 [label="1 1 " , penwidth=0.693147 ];
+	125 [ label="125 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[1,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		125 -> 159 [label="1 1 " , penwidth=1.09861 ];
+		125 -> 89 [label="0 1 " , penwidth=1.09861 ];
+	38 [ label="38 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[0,1,2,0,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		38 -> 39 [label="0 3 " , penwidth=1.38629 ];
+	232 [ label="232 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,0,1,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		232 -> 180 [label="0 1 " , penwidth=0.693147 ];
+	236 [ label="236 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,0,1,1,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		236 -> 58 [label="0 2 " , penwidth=1.09861 ];
+	158 [ label="158 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		158 -> 159 [label="0 1 " , penwidth=0.693147 ];
+	132 [ label="132 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[1,0,0,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		132 -> 89 [label="0 1 " , penwidth=0.693147 ];
+	214 [ label="214 #1 fin: 
+ path: 0:1 , 
+1 0attr(0):[0,0,1,0,]
+" , style=filled, fillcolor="tomato", width=0.526589, height=0.526589, penwidth=0.693147];
+		214 -> 215 [label="1 1 " , penwidth=0.693147 ];
+	39 [ label="39 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[2,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		39 -> 89 [label="1 3 " , penwidth=1.38629 ];
+	159 [ label="159 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,2,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		159 -> 160 [label="0 2 " , penwidth=1.09861 ];
+	215 [ label="215 #3 fin: 
+ path: 0:3 , 
+3 0attr(0):[0,0,0,3,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+		215 -> 180 [label="0 3 " , penwidth=1.38629 ];
+	160 [ label="160 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[0,2,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		160 -> 89 [label="1 2 " , penwidth=1.09861 ];
+}

@@ -1,0 +1,44 @@
+\documentclass{standalone}
+
+\input{tikz.tex}
+
+\begin{document}
+	\begin{tikzpicture}
+		\node (rta) at (0,0) {%
+			\begin{tikzpicture}
+				\begin{semilogxaxis}[
+					title={\toolRTA}, 
+					ylabel={Number of states},
+					xlabel={Number of samples},
+					unit rescale keep size=true,
+					xmin=4,
+					ymin=1,
+					xmax=1001,
+					width=40mm, height=40mm,
+					scale only axis,
+					grid=major
+					]
+					\addplot[scatter, only marks] table[col sep=comma, x=samples, y=states] {scatter_samples_states_rta.csv};
+				\end{semilogxaxis}%
+			\end{tikzpicture}%
+		};
+		\node[anchor=west] (rti) at ($(rta.east) + (0.6,0)$) {%
+			\begin{tikzpicture}
+				\begin{loglogaxis}[
+					title={\toolRTI}, 
+					ylabel={Number of states},
+					xlabel={Number of samples},
+					unit rescale keep size=true,
+					xmin=4,
+					ymin=1,
+					xmax=1001,
+					width=40mm, height=40mm,
+					scale only axis,
+					grid=major
+					]
+					\addplot[scatter, only marks] table[col sep=comma, x=samples, y=states] {scatter_samples_states_rti.csv};
+				\end{loglogaxis}%
+			\end{tikzpicture}%
+		};
+	\end{tikzpicture}
+\end{document}

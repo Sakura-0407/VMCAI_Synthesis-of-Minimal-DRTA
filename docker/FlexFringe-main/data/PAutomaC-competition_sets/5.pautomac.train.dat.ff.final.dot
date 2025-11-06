@@ -1,0 +1,48 @@
+// produced with flexfringe // 
+digraph DFA {
+	0 [label="root" shape=box];
+		I -> 0;
+	0 [ label="0 #20000 fin: 
+ path: 1:20000 , 
+20000 0" , style=filled, fillcolor="tomato", width=2.38909, height=2.38909, penwidth=9.90354];
+		0 -> 1 [label="4 19635 " , penwidth=9.90354 ];
+		0 -> 1 [label="2 365 " , penwidth=9.90354 ];
+	1 [ label="1 #26911 fin: 
+ path: 1:26911 , 
+26911 0" , style=filled, fillcolor="tomato", width=2.41594, height=2.41594, penwidth=10.2003];
+		1 -> 2 [label="0 26911 " , penwidth=10.2003 ];
+	2 [ label="2 #26911 fin: 
+ path: 1:26911 , 
+26911 0" , style=filled, fillcolor="tomato", width=2.41594, height=2.41594, penwidth=10.2003];
+		2 -> 9 [label="0 16220 " , penwidth=10.2003 ];
+		2 -> 9 [label="3 10691 " , penwidth=10.2003 ];
+	9 [ label="9 #26911 fin: 
+ path: 1:26911 , 
+26911 0" , style=filled, fillcolor="tomato", width=2.41594, height=2.41594, penwidth=10.2003];
+		9 -> 14 [label="3 12482 " , penwidth=10.2003 ];
+		9 -> 14 [label="5 984 " , penwidth=10.2003 ];
+		9 -> 14 [label="1 13445 " , penwidth=10.2003 ];
+	14 [ label="14 #26911 fin: 1:14170 , 
+ path: 1:12741 , 
+12741 14170" , style=filled, fillcolor="tomato", width=2.41594, height=2.41594, penwidth=10.2003];
+		14 -> 15 [label="3 12741 " , penwidth=10.2003 ];
+	15 [ label="15 #12741 fin: 
+ path: 1:12741 , 
+12741 0" , style=filled, fillcolor="tomato", width=2.34686, height=2.34686, penwidth=9.45266];
+		15 -> 16 [label="4 11360 " , penwidth=9.45266 ];
+		15 -> 16 [label="5 1381 " , penwidth=9.45266 ];
+	16 [ label="16 #12741 fin: 
+ path: 1:12741 , 
+12741 0" , style=filled, fillcolor="tomato", width=2.34686, height=2.34686, penwidth=9.45266];
+		16 -> 17 [label="4 12642 " , penwidth=9.45266 ];
+		16 -> 17 [label="0 99 " , penwidth=9.45266 ];
+	17 [ label="17 #12741 fin: 1:4791 , 
+ path: 1:7950 , 
+7950 4791" , style=filled, fillcolor="tomato", width=2.34686, height=2.34686, penwidth=9.45266];
+		17 -> 116 [label="4 5222 " , penwidth=9.45266 ];
+		17 -> 116 [label="1 2728 " , penwidth=9.45266 ];
+	116 [ label="116 #7950 fin: 1:1039 , 
+ path: 1:6911 , 
+6911 1039" , style=filled, fillcolor="tomato", width=2.30069, height=2.30069, penwidth=8.98105];
+		116 -> 1 [label="5 6911 " , penwidth=8.98105 ];
+}

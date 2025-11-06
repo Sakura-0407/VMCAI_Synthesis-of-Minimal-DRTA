@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE benchmark PUBLIC "+//IDN sosy-lab.org//DTD BenchExec benchmark 1.9//EN" "https://www.sosy-lab.org/benchexec/benchmark-1.9.dtd">
+<benchmark tool="rti" walltimelimit="1800 s" cpuCores="2">
+        <rundefinition name="all">
+                <tasks>
+                        <includesfile>benchmarks/automata/?_*/benchmarks.set</includesfile>
+                        <includesfile>benchmarks/automata/??_*/benchmarks.set</includesfile>
+                </tasks>
+        </rundefinition>
+</benchmark>

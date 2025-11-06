@@ -1,0 +1,35 @@
+// produced with flexfringe // 
+digraph DFA {
+	0 [label="root" shape=box];
+		I -> 0;
+	0 [ label="0 #10 fin: 
+ path: 0:10 , 
+10 0attr(0):[2,4,3,1,]
+" , style=filled, fillcolor="tomato", width=1.22316, height=1.22316, penwidth=2.3979];
+		0 -> 1 [label="0 10 " , penwidth=2.3979 ];
+	1 [ label="1 #10 fin: 0:1 , 
+ path: 0:9 , 
+9 1attr(0):[1,2,5,2,]
+" , style=filled, fillcolor="tomato", width=1.22316, height=1.22316, penwidth=2.3979];
+		1 -> 5 [label="0 2 " , penwidth=2.3979 ];
+		1 -> 2 [label="1 7 " , penwidth=2.3979 ];
+	5 [ label="5 #2 fin: 
+ path: 0:2 , 
+2 0attr(0):[1,1,0,0,]
+" , style=filled, fillcolor="tomato", width=0.741276, height=0.741276, penwidth=1.09861];
+		5 -> 6 [label="1 2 " , penwidth=1.09861 ];
+	2 [ label="2 #7 fin: 0:3 , 
+ path: 0:4 , 
+4 3attr(0):[3,2,0,2,]
+" , style=filled, fillcolor="tomato", width=1.12475, height=1.12475, penwidth=2.07944];
+		2 -> 3 [label="0 4 " , penwidth=2.07944 ];
+	6 [ label="6 #3 fin: 0:3 , 
+ path: 
+0 3attr(0):[3,0,0,0,]
+" , style=filled, fillcolor="tomato", width=0.869742, height=0.869742, penwidth=1.38629];
+	3 [ label="3 #4 fin: 0:3 , 
+ path: 0:1 , 
+1 3attr(0):[3,0,1,0,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		3 -> 6 [label="1 1 " , penwidth=1.60944 ];
+}

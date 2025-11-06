@@ -1,0 +1,52 @@
+// Raw TDRTA transition relations
+digraph {
+	rankdir=LR
+	q0 [label=q0 fillcolor=lightgreen fontname=SimHei shape=doublecircle style=filled]
+	q1 [label=q1 fillcolor=white fontname=SimHei shape=circle style=filled]
+	q0 -> q1 [label="c/(3, 4)
+e/(15, 16)
+e/(45, 46)
+e/(93, 94)
+d/(38, 39)
+e/(100, 101)" fontname=SimHei]
+	q1 -> q0 [label="c/(3, 4)
+e/(15, 16)
+e/(45, 46)
+e/(93, 94)
+d/(38, 39)
+e/(100, 101)" fontname=SimHei]
+	q0 -> q0 [label="e/(109, 110)
+d/[96, 96]
+e/(7, 8)
+e/(12, 13)
+a/(4, 5)
+a/(65, 66)
+a/[37, 37]
+e/(106, 107)
+e/(112, ∞)
+c/(2, 3)
+d/(30, 31)
+a/(0, 1)
+b/(106, 107)
+a/(78, 79)
+e/(40, 41)
+a/(43, 44)
+e/(53, 54)" fontname=SimHei]
+	q1 -> q1 [label="e/(109, 110)
+d/[96, 96]
+e/(7, 8)
+e/(12, 13)
+a/(4, 5)
+a/(65, 66)
+a/[37, 37]
+e/(106, 107)
+e/(112, ∞)
+c/(2, 3)
+d/(30, 31)
+a/(0, 1)
+b/(106, 107)
+a/(78, 79)
+e/(40, 41)
+a/(43, 44)
+e/(53, 54)" fontname=SimHei]
+}

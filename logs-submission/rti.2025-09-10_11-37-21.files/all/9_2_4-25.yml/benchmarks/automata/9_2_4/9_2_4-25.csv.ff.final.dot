@@ -1,0 +1,42 @@
+// produced with flexfringe // 
+digraph DFA {
+	0 [label="root" shape=box];
+		I -> 0;
+	0 [ label="0 #25 fin: 
+ path: 0:25 , 
+25 0attr(0):[9,16,0,0,]
+" , style=filled, fillcolor="tomato", width=1.44882, height=1.44882, penwidth=3.2581];
+		0 -> 1 [label="0 25 " , penwidth=3.2581 ];
+	1 [ label="1 #25 fin: 0:1 , 
+ path: 0:24 , 
+24 1attr(0):[1,0,0,24,]
+" , style=filled, fillcolor="tomato", width=1.44882, height=1.44882, penwidth=3.2581];
+		1 -> 2 [label="0 24 " , penwidth=3.2581 ];
+	2 [ label="2 #24 fin: 0:7 , 
+ path: 0:17 , 
+17 7attr(0):[9,1,0,14,]
+" , style=filled, fillcolor="tomato", width=1.43957, height=1.43957, penwidth=3.21888];
+		2 -> 3 [label="0 10 " , penwidth=3.21888 ];
+		2 -> 5 [label="1 7 " , penwidth=3.21888 ];
+	3 [ label="3 #10 fin: 0:2 , 
+ path: 0:8 , 
+8 2attr(0):[5,1,0,4,]
+" , style=filled, fillcolor="tomato", width=1.22316, height=1.22316, penwidth=2.3979];
+		3 -> 4 [label="0 2 " , penwidth=2.3979 ];
+		3 -> 4 [label="1 6 " , penwidth=2.3979 ];
+	5 [ label="5 #7 fin: 0:3 , 
+ path: 0:4 , 
+4 3attr(0):[5,2,0,0,]
+" , style=filled, fillcolor="tomato", width=1.12475, height=1.12475, penwidth=2.07944];
+		5 -> 6 [label="0 4 " , penwidth=2.07944 ];
+	4 [ label="4 #10 fin: 0:9 , 
+ path: 0:1 , 
+1 9attr(0):[10,0,0,0,]
+" , style=filled, fillcolor="tomato", width=1.22316, height=1.22316, penwidth=2.3979];
+		4 -> 4 [label="1 1 " , penwidth=2.3979 ];
+	6 [ label="6 #4 fin: 0:3 , 
+ path: 0:1 , 
+1 3attr(0):[3,0,0,1,]
+" , style=filled, fillcolor="tomato", width=0.959135, height=0.959135, penwidth=1.60944];
+		6 -> 4 [label="0 1 " , penwidth=1.60944 ];
+}

@@ -1,0 +1,23 @@
+\usepackage{xspace}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{calc,shapes,pgfplots.statistics}
+\pgfplotsset{compat=1.18}
+
+\pgfplotsset{
+every mark/.append style={solid}
+}
+
+\pgfplotscreateplotcyclelist{tool_list}{%
+        {red!75!black, mark=o}, % RTI
+        {blue!75!black, mark=+, dashed}, % RTA
+}
+
+\pgfplotscreateplotcyclelist{tool_color_list}{%
+        {red!75!black}, % RTI
+        {blue!75!black}, % RTA
+}
+
+\newcommand{\toolRTI}{\textsc{FlexFringe}\xspace}
+\newcommand{\toolRTA}{\textsc{RTA}\xspace}
+
