@@ -1,3 +1,4 @@
+# VMCAI_Synthesis-of-Minimal-DRTA
 This artifact provides the tools, files, logs, and additional packages needed to run the experiments presented in the VMCAI'26 submission "SAT-Based Synthesis of Minimal Deterministic Real-Time Automata via 3DRTA Representation".
 
 The ZIP archive extracts its content inside the **vmcai26-artifact** directory, containing all benchmark files and scripts needed to run the experiments, including the source code of all tools evaluated in the paper.
@@ -214,15 +215,23 @@ This will build the Min3RTA and verify all samples.
 
 ### 2. SMT Encoding and Solving
 ```bash
+**Run without saving visualization files (default)**
 python test_encoding.py your_data.py
+
+**Run with saving visualization files**
+python test_encoding.py your_data.py --save-files
 ```
 This performs complete SMT-based RTA learning with constraint generation.
+
+**File Saving Options:**
+- **Default mode**: Only console output is shown, no files are saved
+- **`--save-files` mode**: Visualization files (`.png` and `.dot`) are saved to `traces_output/<input_filename>/` directory
 
 ## Expected Outputs
 
 Each experiment produces:
-- **Console output**: Detailed execution logs and statistics
-- **Visualization files**: `.png` and `.dot` files showing automaton structure
+- **Console output**: Execution logs, statistics, and timing information
+- **Visualization files** (optional, with `--save-files`): `.png` and `.dot` files showing automaton structure, saved in `traces_output/<input_filename>/`
 - **Performance metrics**: Timing statistics and constraint counts
 
 ## Quick Start Example
@@ -242,10 +251,16 @@ negative_samples = [
 
 2. Run experiment:
 ```bash
+**Without saving files (minimal output)
 python test_encoding.py my_experiment.py
+
+**With saving visualization files**
+python test_encoding.py my_experiment.py --save-files
 ```
 
-3. Check results in console output and generated visualization files.
+3. Check results:
+- **Console output**: Always shows execution statistics and timing
+- **Visualization files**: Only generated when using `--save-files`, saved in `traces_output/my_experiment/`
 
 
 # How to Extend RTA
