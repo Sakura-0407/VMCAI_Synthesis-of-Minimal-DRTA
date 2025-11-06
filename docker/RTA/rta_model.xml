@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<nta>
+  <declaration>// Clock declarations
+clock x;
+
+// Constant declarations</declaration>
+  <template>
+    <name>RTA_Model</name>
+    <declaration>// Local variable declarations</declaration>
+    <location id="id0">
+      <name x="100" y="70">q0</name>
+    </location>
+    <location id="id1">
+      <name x="250" y="70">q1</name>
+      <committed/>
+    </location>
+    <location id="id2">
+      <name x="400" y="70">q2</name>
+    </location>
+    <location id="id3">
+      <name x="550" y="70">q3</name>
+      <urgent/>
+    </location>
+    <location id="id4">
+      <name x="700" y="70">q4</name>
+    </location>
+    <location id="id5">
+      <name x="100" y="220">q5</name>
+      <committed/>
+    </location>
+    <location id="id6">
+      <name x="250" y="220">q6</name>
+    </location>
+    <location id="id8">
+      <name x="550" y="220">q8</name>
+      <urgent/>
+    </location>
+    <init ref="id0"/>
+    <transition>
+      <source ref="id0"/>
+      <target ref="id1"/>
+      <guard x="50" y="50">x &gt;= 1 &amp;&amp; x &lt;= 1</guard>
+      <synchronisation x="50" y="70">a!</synchronisation>
+      <assignment x="50" y="90">x = 0</assignment>
+      <nail x="175" y="100"/>
+    </transition>
+    <transition>
+      <source ref="id0"/>
+      <target ref="id6"/>
+      <guard x="50" y="50">x &gt;= 1 &amp;&amp; x &lt;= 1</guard>
+      <synchronisation x="50" y="70">b!</synchronisation>
+      <assignment x="50" y="90">x = 0</assignment>
+      <nail x="175" y="175"/>
+    </transition>
+    <transition>
+      <source ref="id0"/>
+      <target ref="id8"/>
+      <guard x="50" y="50">x &gt;= 2</guard>
+      <synchronisation x="50" y="70">b!</synchronisation>
+      <assignment x="50" y="90">x = 0</assignment>
+      <nail x="325" y="175"/>
+    </transition>
+    <transition>
+      <source ref="id1"/>
+      <target ref="id2"/>
+      <guard x="200" y="50">x &gt;= 1 &amp;&amp; x &lt;= 1</guard>
+      <synchronisation x="200" y="70">b!</synchronisation>
+      <assignment x="200" y="90">x = 0</assignment>
+      <nail x="325" y="100"/>
+    </transition>
+    <transition>
+      <source ref="id1"/>
+      <target ref="id4"/>
+      <guard x="200" y="50">x &gt;= 2</guard>
+      <synchronisation x="200" y="70">b!</synchronisation>
+      <assignment x="200" y="90">x = 0</assignment>
+      <nail x="475" y="100"/>
+    </transition>
+    <transition>
+      <source ref="id2"/>
+      <target ref="id3"/>
+      <guard x="350" y="50">x &gt;= 1 &amp;&amp; x &lt;= 1</guard>
+      <synchronisation x="350" y="70">a!</synchronisation>
+      <assignment x="350" y="90">x = 0</assignment>
+      <nail x="475" y="100"/>
+    </transition>
+    <transition>
+      <source ref="id4"/>
+      <target ref="id5"/>
+      <guard x="650" y="50">x &gt;= 1 &amp;&amp; x &lt;= 1</guard>
+      <synchronisation x="650" y="70">b!</synchronisation>
+      <assignment x="650" y="90">x = 0</assignment>
+      <nail x="400" y="175"/>
+    </transition>
+    <transition>
+      <source ref="id6"/>
+      <target ref="id3"/>
+      <guard x="200" y="200">x &gt;= 1 &amp;&amp; x &lt;= 1</guard>
+      <synchronisation x="200" y="220">b!</synchronisation>
+      <assignment x="200" y="240">x = 0</assignment>
+      <nail x="400" y="175"/>
+    </transition>
+    <transition>
+      <source ref="id8"/>
+      <target ref="id5"/>
+      <guard x="500" y="200">x &gt;= 1 &amp;&amp; x &lt;= 1</guard>
+      <synchronisation x="500" y="220">b!</synchronisation>
+      <assignment x="500" y="240">x = 0</assignment>
+      <nail x="325" y="250"/>
+    </transition>
+  </template>
+  <system>// Process instantiation
+system RTA_Model;</system>
+  <queries>
+    <query>
+      <formula>E&lt;&gt; true</formula>
+      <comment>Verify model reachability</comment>
+    </query>
+  </queries>
+</nta>

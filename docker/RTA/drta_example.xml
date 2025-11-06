@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<nta>
+  <declaration>// Clock declaration
+clock x;
+
+// Constant declaration</declaration>
+  <template>
+    <name>DRTA_Model</name>
+    <declaration>// Local variable declaration</declaration>
+    <location id="id0">
+      <name x="100" y="70">q0</name>
+    </location>
+    <location id="id1">
+      <name x="250" y="70">q1</name>
+    </location>
+    <location id="id2">
+      <name x="400" y="70">q2</name>
+      <committed/>
+    </location>
+    <location id="id3">
+      <name x="550" y="70">q3</name>
+    </location>
+    <location id="id4">
+      <name x="700" y="70">q4</name>
+      <urgent/>
+    </location>
+    <init ref="id0"/>
+    <transition>
+      <source ref="id0"/>
+      <target ref="id1"/>
+      <guard x="50" y="50">x &gt; 1 &amp;&amp; x &lt; 2</guard>
+      <synchronisation x="50" y="70">a!</synchronisation>
+      <assignment x="50" y="90">x = 0</assignment>
+      <nail x="175" y="100"/>
+    </transition>
+    <transition>
+      <source ref="id0"/>
+      <target ref="id3"/>
+      <guard x="50" y="50">x &gt;= 1 &amp;&amp; x &lt;= 1</guard>
+      <synchronisation x="50" y="70">b!</synchronisation>
+      <assignment x="50" y="90">x = 0</assignment>
+      <nail x="325" y="100"/>
+    </transition>
+    <transition>
+      <source ref="id1"/>
+      <target ref="id2"/>
+      <guard x="200" y="50">x &gt; 2 &amp;&amp; x &lt; 3</guard>
+      <synchronisation x="200" y="70">a!</synchronisation>
+      <assignment x="200" y="90">x = 0</assignment>
+      <nail x="325" y="100"/>
+    </transition>
+    <transition>
+      <source ref="id3"/>
+      <target ref="id4"/>
+      <guard x="500" y="50">x &gt;= 3</guard>
+      <synchronisation x="500" y="70">a!</synchronisation>
+      <assignment x="500" y="90">x = 0</assignment>
+      <nail x="625" y="100"/>
+    </transition>
+  </template>
+  <system>// Process instantiation
+system DRTA_Model;</system>
+  <queries>
+    <query>
+      <formula>E&lt;&gt; true</formula>
+      <comment>Verify model reachability</comment>
+    </query>
+  </queries>
+</nta>
